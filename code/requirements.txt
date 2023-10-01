@@ -1,0 +1,32 @@
+pip3 install pandas
+pip3 install matplotlib
+pip3 install seaborn
+pip3 install numpy
+pip3 install pycaret
+
+pip3 install jupyterlab
+pip3 install notebook
+
+pip3 install polars
+
+jupyter notebook
+
+
+To install pycaret
+
+
+# create a conda environment
+conda create --name hackathon  python=3.8
+
+# activate conda environment
+conda activate hackathon
+
+# install pycaret
+pip install pycaret
+
+
+pip install ipykernel
+
+# create notebook kernel connected with the conda environment
+python -m ipykernel install --user --name hackathon --display-name "display-name"
+
